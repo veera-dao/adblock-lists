@@ -28,9 +28,17 @@
 
         ],
         "params": [
+            "ascsubtag",
+            "dib",
+            "dib_tag",
+            "geniuslink",
+            "keywords",
+            "th",
+            "content-id",
             "linkCode",
             "tag",
             "crid",
+            "pd_rd_i",
             "pd_rd_r",
             "pd_rd_w",
             "pd_rd_wg",
@@ -41,7 +49,65 @@
             "pf_rd_s",
             "pf_rd_t",
             "qid",
+            "ref",
+            "refinements",
+            "rnid",
+            "social_share",
             "sprefix"
+        ]
+    },
+    {
+        "include": [
+            "*://new.reddit.com/*",
+            "*://old.reddit.com/*",
+            "*://www.reddit.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "correlation_id",
+            "post_fullname",
+            "ref",
+            "ref_campaign",
+            "ref_source",
+            "share_id"
+        ]
+    },
+    {
+        "include": [
+            "https://*.app.link/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+             "cjevent",
+             "click_id"
+        ]
+    },
+    {
+        "include": [
+            "*://www.ft.com/*",
+            "*://*.linkedin.com/*",
+            "*://therecord.media/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+             "trk"
+        ]
+    },
+    {
+        "include": [
+            "*://www.zoopla.co.uk/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+             "search_identifier"
         ]
     },
     {
@@ -53,6 +119,20 @@
         ],
         "params": [
             "from"
+        ]
+    },
+    {
+        "include": [
+            "*://*.ticketweb.ca/*",
+            "*://*.ticketweb.com/*",
+            "*://*.ticketweb.ie/*",
+            "*://*.ticketweb.uk/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "REFERRAL_ID"
         ]
     },
     {
@@ -74,10 +154,55 @@
     },
     {
         "include": [
-            "*://*.twitter.com/*"
+            "*://*.ebay.com/itm/*",
+            "*://www.ebay.at/itm/*",
+            "*://www.ebay.ca/itm/*",
+            "*://www.ebay.co.uk/itm/*",
+            "*://www.ebay.com.au/itm/*",
+            "*://www.ebay.com.sg/itm/*",
+            "*://www.ebay.de/itm/*",
+            "*://www.ebay.es/itm/*",
+            "*://www.ebay.ie/itm/*",
+            "*://www.ebay.fr/itm/*",
+            "*://www.ebay.it/itm/*",
+            "*://www.ebay.ch/itm/*",
+            "*://www.ebay.nl/itm/*",
+            "*://www.ebay.pl/itm/*"
         ],
         "exclude": [
-            "*://*.twitter.com/i/redirect?*"
+
+        ],
+        "params": [
+            "media",
+	    "mkcid",
+            "mkevt",
+            "ssspo",
+            "ssrc",
+	    "ssuid",
+            "widget_ver"
+        ]
+    },
+    {
+        "include": [
+            "*://www.instagram.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "igsh",
+            "igshid",
+            "ig_rid"
+        ]
+    },
+    {
+        "include": [
+            "*://*.twitter.com/*",
+            "*://*.x.com/*"
+        ],
+        "exclude": [
+            "*://*.twitter.com/i/redirect?*",
+            "*://*.x.com/i/redirect?*"
         ],
         "params": [
             "cxt",
@@ -112,7 +237,22 @@
     },
     {
         "include": [
-            "*://actionnetwork.org/*"
+            "*://ici.radio-canada.ca/*",
+            "*://radio-canada.ca/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "partageApp"
+        ]
+    },
+    {
+        "include": [
+            "*://actionnetwork.org/*",
+            "*://*.bamboohr.com/careers/*",
+            "*://www.tumblr.com/*",
+            "*://medium.com/*"
         ],
         "exclude": [
 
@@ -151,33 +291,40 @@
 
         ],
         "params": [
+            "trackingCode",
+            "trackingId",
             "original_referer"
         ]
     },
     {
         "include": [
+            "*://www.linkedin.com/help/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "mcid",
+            "src"
+        ]
+    },
+    {
+        "include": [
+            "*://youtu.be/*",
             "*://*.youtube.com/watch?*"
         ],
         "exclude": [
 
         ],
         "params": [
+            "app",
             "embeds_euri",
             "embeds_loader_url_for_pings",
             "embeds_origin",
             "feature",
+            "pp",
+            "si",
             "source_ve_path"
-        ]
-    },
-    {
-        "include": [
-            "*://medium.com/*"
-        ],
-        "exclude": [
-
-        ],
-        "params": [
-            "source"
         ]
     },
     {
@@ -210,15 +357,30 @@
     },
     {
         "include": [
+            "*://*.bloomberglaw.com/*",
             "*://*.bloomberg.com/*"
         ],
         "exclude": [
 
         ],
         "params": [
+            "trk",
             "in_source",
             "leadSource",
             "srnd"
+        ]
+    },
+    {
+        "include": [
+            "*://*.aliexpress.com/item/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "algo_exp_id",
+            "pdp_npi",
+            "curPageLogUid"
         ]
     },
     {
@@ -231,6 +393,48 @@
         "params": [
             "h_sid",
             "h_slt"
+        ]
+    },
+    {
+        "include": [
+            "*://*.eventbrite.at/*",
+            "*://*.eventbrite.be/*",
+            "*://*.eventbrite.ca/*",
+            "*://*.eventbrite.ch/*",
+            "*://*.eventbrite.cl/*",
+            "*://*.eventbrite.co/*",
+            "*://*.eventbrite.com.ar/*",
+            "*://*.eventbrite.com.au/*",
+            "*://*.eventbrite.com.br/*",
+            "*://*.eventbrite.com.mx/*",
+            "*://*.eventbrite.com.pe/*",
+            "*://*.eventbrite.co.nz/*",
+            "*://*.eventbrite.co.uk/*",
+            "*://*.eventbrite.de/*",
+            "*://*.eventbrite.dk/*",
+            "*://*.eventbrite.es/*",
+            "*://*.eventbrite.fi/*",
+            "*://*.eventbrite.fr/*",
+            "*://*.eventbrite.hk/*",
+            "*://*.eventbrite.ie/*",
+            "*://*.eventbrite.it/*",
+            "*://*.eventbrite.nl/*",
+            "*://*.eventbrite.pt/*",
+            "*://*.eventbrite.se/*",
+            "*://*.eventbrite.sg/*",
+            "*://*.eventbrite.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "aff",
+            "can_id",
+            "email_referrer",
+            "email_subject",
+            "link_id",
+            "ref",
+            "source"
         ]
     },
     {
@@ -271,18 +475,190 @@
     },
     {
         "include": [
+            "*://*.humblebundle.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "hmb_campaign",
+            "hmb_medium",
+            "hmb_source"
+        ]
+    },
+    {
+        "include": [
+            "*://ctr.narvar.com/*/tracking/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "destination_country",
+            "dzip",
+            "order_number",
+            "origin_country",
+            "ozip",
+            "service"
+        ]
+    },
+    {
+        "include": [
+            "*://*.nytimes.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "smid",
+            "ugrp"
+        ]
+    },
+    {
+        "include": [
+            "*://arstechnica.com/*",
+            "*://pitchfork.com/*",
+            "*://www.allure.com/*",
+            "*://www.architecturaldigest.com/*",
+            "*://www.bonappetit.com/*",
+            "*://www.cntraveler.com/*",
+            "*://www.epicurious.com/*",
+            "*://www.glamour.com/*",
+            "*://www.gq.com/*",
+            "*://www.gq-magazine.co.uk/*",
+            "*://www.gqitalia.it/*",
+            "*://www.gqmagazine.fr/*",
+            "*://www.newyorker.com/*",
+            "*://www.self.com/*",
+            "*://www.them.us/*",
+            "*://www.teenvogue.com/*",
+            "*://www.vanityfair.com/*",
+            "*://www.vogue.com/*",
+            "*://www.wired.com/*",
+            "*://www.wired.co.uk/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "bxid",
+            "cndid",
+            "esrc",
+            "hasha",
+            "hashb",
+            "hashc",
+            "source",
+            "mbid"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
 
         ],
         "params": [
+            "_branch_referrer",
+            "_branch_match_id",
+            "__hssc",
+            "__hstc",
+            "_hsenc",
+            "_hsmi",
+            "hsCtaTracking",
+            "cm_cr",
+            "cm_me",
+            "cm_re",
+            "cm_sp",
+            "cm_mmc",
+            "cm_mmca1",
+            "cm_mmca2",
+            "cm_mmca3",
+            "cm_mmca4",
+            "cm_mmca5",
+            "cm_mmca6",
+            "cm_mmca7",
+            "cm_mmca8",
+            "cm_mmca9",
+            "cm_mmca10",
+            "cm_mmca11",
+            "cm_mmca12",
+            "cm_mmca13",
+            "cm_mmca14",
+            "cm_mmca15",
+            "hsa_acc",
+            "hsa_ad",
+            "hsa_cam",
+            "hsa_grp",
+            "hsa_kw",
+            "hsa_la",
+            "hsa_mt",
+            "hsa_net",
+            "hsa_ol",
+            "hsa_src",
+            "hsa_tgt",
+            "hsa_ver",
+            "action_object_map",
+            "action_ref_map",
+            "action_type_map",
+            "fb_action_ids",
+            "fb_action_types",
+            "fb_comment_id",
+            "fb_ref",
+            "fb_source",
+            "irclickid",
+            "irgwc",
+            "ir_adid",
+            "ir_campaignid",
+            "ir_partnerid",
+            "yadclid",
+            "yadordid",
+            "yclid",
+            "ymclid",
+            "ysclid",
+            "cx_click",
+            "cx_recsOrder",
+            "cx_recsWidget",
+            "at_campaign",
+            "at_campaign_type",
+            "at_channel",
+            "at_creation",
+            "at_custom1",
+            "at_custom2",
+            "at_custom3",
+            "at_custom4",
+            "at_detail_placement",
+            "at_emailtype",
+            "at_format",
+            "at_format",
+            "at_general_placement",
+            "at_identifier",
+            "at_link",
+            "at_link_id",
+            "at_link_origin",
+            "at_link_type",
+            "at_medium",
+            "at_network",
+            "at_platform",
+            "at_ptr_name",
+            "at_recipient_id",
+            "at_recipient_list",
+            "at_send_date",
+            "at_term",
+            "at_type",
+            "at_variant",
             "brave-campaign-id",
             "brave-creative-id",
             "brave-creative-set-id",
+            "et_cid",
+            "et_lid",
+            "et_rid",
+            "ml_sub",
+            "ml_sub_hash",
             "ml_subscriber",
             "ml_subscriber_hash",
             "mc_cid",
+            "s_campaign",
             "ss_campaign_id",
             "ss_campaign_name",
             "ss_campaign_sent_date",
@@ -310,14 +686,20 @@
             "utm_affiliate",
             "utm_brand",
             "utm_campaign",
+            "utm_campaigncode",
             "utm_campaignid",
             "utm_channel",
             "utm_cid",
             "utm_content",
+            "utm_creative",
+            "utm_creative_format",
+            "utm_device",
             "utm_emcid",
             "utm_emmid",
             "utm_id",
             "utm_keyword",
+            "utm_mailing",
+            "utm_marketing_tactic",
             "utm_medium",
             "utm_name",
             "utm_place",
@@ -331,6 +713,7 @@
             "utm_social",
             "utm_social-type",
             "utm_source",
+            "utm_source_platform",
             "utm_supplier",
             "utm_swu",
             "utm_term",
